@@ -26,8 +26,13 @@ const student = {
     hasBike: false
 }
 
-const { name, age: myAge, address: { district, country } } = student;
 
+const {
+    name,
+    age: myAge,
+    address: { district, country } } = student;
+
+    
 console.log(name);   // Bayjid Alom
 console.log(myAge);    // 19
 console.log(country);  // Bangladesh
